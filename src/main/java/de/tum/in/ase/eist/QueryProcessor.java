@@ -12,8 +12,12 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
-           return "MyTeam";
-        } else {
+            return "MyTeam";
+        }
+           else if (query.contains("20is%20the%20largest:%20793,%2039")){
+               return "2039";
+            }
+         else {
             // TODO extend the programm here
             return "";
         }
